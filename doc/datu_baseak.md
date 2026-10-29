@@ -287,7 +287,104 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 | DENBORALDIAK | `ID_DENBORALDIA` | `ID_EDUKIAK` |
 | KAPITULUAK | `ID_KAPITULUA` | `ID_DENBORALDIA` |
 
-### 3. Taulen arteko erlazioak
+### 3. Access-eko taulen atributuen propietateak
+
+#### 3.1. HARPIDETZA taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_HARPIDETZA | Autonumerazioa | — |
+| Hasiera_data | Data/Ordua | Formatua: Fecha corta |
+| Amaiera_data | Data/Ordua | Formatua: Fecha corta |
+
+#### 3.2. PLANA taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_PLANA | Autonumerazioa | — |
+| ID_HARPIDETZA | Zenbakia | FK – HARPIDETZA taula |
+| Mota | Testu laburra | Asistente para búsquedas (Estándar edo Premium) |
+
+#### 3.3. ERABILTZAILEA taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| NAN | Testu laburra | Máscara de entrada: NIF (90000000>L;;_) |
+| ID_PLANA | Zenbakia | FK – PLANA taula |
+| Izena | Testu laburra | Tamaño del campo = 30 |
+| Abizena | Testu laburra | Tamaño del campo = 30 |
+| Pasahitza | Testu laburra | Regla de validación = `*[A-Z]*.*` (gutxienez letra larri bat edukitzeko) |
+| Email-a | Testu laburra | Regla de validación = `*@*` (@ ikurra edukitzeko) |
+
+#### 3.4. PERFIL taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_Perfil | Autonumerazioa | — |
+| NAN | Testu laburra | FK – ERABILTZAILEA taula |
+| Mota | Testu laburra | Asistente para búsquedas (Estándar edo Premium) |
+
+#### 3.5. IKUSI taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_Perfil | Zenbakia | — |
+| ID_EDUKIAK | Zenbakia | — |
+| Bistaratzea | Sí/No | — |
+
+#### 3.6. EDUKIAK taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_EDUKIAK | Autonumerazioa | — |
+| Adin_sailkapena | Zenbakia | Regla de validación = `>18` (+18 urtetik gorakoentzat) |
+| Izenburua | Testu laburra | Regla de validación = `*[A-Z]*.*` (gutxienez letra larri bat edukitzeko) |
+| Deskribapena | Testu luzea | Tamaño del campo = 50 |
+| Urtea | Zenbakia | Máscara de entrada = `0000` (4 digitu) |
+| Mota | Testu laburra | — |
+
+#### 3.7. PELIKULAK taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_EDUKIAK | Zenbakia | — |
+| Zuzendaria | Testu laburra | Tamaño del campo = 30 |
+| Iraupena_min | Zenbakia | Fecha/Hora = Máscara de entrada: Hora larga |
+
+#### 3.8. DOKU taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_EDUKIAK | Zenbakia | — |
+| Gaia | Testu laburra | Asistente para búsquedas (Natura eta animaliak, Kirolak, Gizartea eta kultura, Musika eta artea, Biografiak, Krimenak eta ikerketak) |
+| Iraupena_min | Zenbakia | Fecha/Hora = Máscara de entrada: Hora larga |
+
+#### 3.9. SERIEAK taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_EDUKIAK | Zenbakia | Seriea EDUKIAK taulako gako nagusiarekin lotzen du. |
+
+#### 3.10. DENBORALDIAK taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_DENBORALDIA | Autonumerazioa | — |
+| ID_EDUKIAK | Zenbakia | — |
+| Zenbakia | Zenbakia | Valor predeterminado = 1 (1etik hasteko) |
+
+#### 3.11. KAPITULUAK taula
+
+| Eremuaren izena | Datu mota | Propietateak |
+|---|---|---|
+| ID_KAPITULUA | Autonumerazioa | — |
+| ID_DENBORALDIA | Zenbakia | — |
+| Izena | Testu laburra | Tamaño del campo = 30 |
+| Izena | Testu laburra | Regla de validación = `*[A-Z]*.*` (gutxienez letra larri bat edukitzeko) |
+
+
+
+### 4. Taulen arteko erlazioak
 
 - **1:1:** taula bateko erregistro bakoitza besteko erregistro bakar batekin lotzen da.
 - **1:N:** taula bateko erregistro bat besteko hainbat erregistrotara lot daiteke.
@@ -307,3 +404,4 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 | DENBORALDIAK – KAPITULUAK | `ID_DENBORALDIA` | 1:N |
 
 ![eredu erlazioanala](img/db/erlazioakac.png)
+
