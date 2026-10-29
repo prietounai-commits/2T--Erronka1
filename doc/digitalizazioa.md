@@ -109,4 +109,11 @@ Kanban taularen bidez, zereginak hiru egoeratan banatu ditugu:
 - **Egiten ari direnak:** une horretan lantzen ari garen zereginak.
 - **Eginda:** amaitutako zereginak.
 
+    ![GitHUb planifikazioa](img/digi/plan2.png)
+    ![GitHUb planifikazioa](img/digi/plan.png)
+
+Bestalde, **Roadmap-a** erabili dugu zereginak denboran zehar antolatzeko. Horri esker, zeregin bakoitza noiz egin dugun zehaztu eta erronkaren garapenaren denbora-plangintza ikusi ahal izan dugu.
+        
+![GitHUb planifikazioa](img/digi/plan3.png)
+
 Antolaketa honi esker, zereginen egoera kontrolatu, lanaren jarraipena egin eta erronkaren garapena modu eraginkorragoan planifikatu dugu.
