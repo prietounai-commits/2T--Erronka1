@@ -67,4 +67,5 @@ Lan honen helburua informatikako erronkan landutako edukiak webgune batean biltz
 - **`justify-content`**: Flex elementuak lerrokatzen ditu.
 - **`gap`**: Elementuen arteko tartea ezartzen du.
 
+    ![GitHUb planifikazioa](img/markatze/web.png)
 
