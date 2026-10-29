@@ -405,5 +405,5 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 | SERIEAK – DENBORALDIAK | `ID_EDUKIAK` | 1:N |
 | DENBORALDIAK – KAPITULUAK | `ID_DENBORALDIA` | 1:N |
 
-![eredu erlazioanala](img/db/erlazioakac.png)
+![eredu erlazioanala](img/db/erlazioakc2.png)
 
