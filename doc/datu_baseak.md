@@ -268,6 +268,8 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 - `ID_KAPITULUA` — Gako nagusia.
 - `Izena` — Kapituluaren izena.
 
+  ![eredu erlazioanala](img/db/taulak.png)
+
 ### 2. Taulen gako nagusiak (PK) eta kanpo-gakoak (FK)
 
 - **Gako nagusia (PK):** taula bateko erregistro bakoitza modu bakarrean identifikatzeko erabiltzen da. Ezin du balio errepikaturik edo hutsik izan.
