@@ -117,5 +117,6 @@ Kanban taularen bidez, zereginak hiru egoeratan banatu ditugu:
 Bestalde, **Roadmap-a** erabili dugu zereginak denboran zehar antolatzeko. Horri esker, zeregin bakoitza noiz egin dugun zehaztu eta erronkaren garapenaren denbora-plangintza ikusi ahal izan dugu.
         
 ![GitHUb planifikazioa](img/digi/plan3.png)
+[2T- ERRONKA1 PLANIFIKAZIOAREN ROADMAP (link-a)](https://github.com/users/prietounai-commits/projects/8/views/4)
 
 Antolaketa honi esker, zereginen egoera kontrolatu, lanaren jarraipena egin eta erronkaren garapena modu eraginkorragoan planifikatu dugu.
