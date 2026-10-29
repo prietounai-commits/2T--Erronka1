@@ -407,5 +407,3 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 
 ![eredu erlazioanala](img/db/erlazioakc2.png)
 
-
-![eredu erlazioanala](img/db/erlazioakc2.png)
