@@ -397,8 +397,8 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 | HARPIDETZA – PLANA | `ID_HARPIDETZA` | 1:N |
 | PLANA – ERABILTZAILEA | `ID_PLANA` | 1:N |
 | ERABILTZAILEA – PERFIL | `NAN` | 1:N |
-| PERFIL – IKUSI | `ID_Perfil` | 1:N |
-| EDUKIAK – IKUSI | `ID_EDUKIAK` | 1:N |
+| PERFIL – IKUSI | `ID_Perfil` | N:M |
+| EDUKIAK – IKUSI | `ID_EDUKIAK` | N:M |
 | EDUKIAK – PELIKULAK | `ID_EDUKIAK` | 1:1 |
 | EDUKIAK – DOKU | `ID_EDUKIAK` | 1:1 |
 | EDUKIAK – SERIEAK | `ID_EDUKIAK` | 1:1 |
