@@ -7,17 +7,17 @@ title: M.Lengohaiak
 
 Lan honen helburua informatikako erronkan landutako edukiak webgune batean biltzea da. Webgunearen egitura sortzeko HTML erabili dugu, eta itxura diseinatzeko, CSS. Sei atal ditu: Hasiera, Sareak, Sistemak, Marketzea, Datu-baseak eta Digitalizazioa.
 
-### 1.ERABILI DITUGUN PROGRAMAK
+### 1. ERABILI DITUGUN PROGRAMAK
 
 - **HTML:** Testuak, izenburuak, irudiak eta estekak gehitzeko.
 - **CSS:** Koloreak, tamainak, botoiak eta elementuen kokapena zehazteko.
 - **Visual Studio Code:** Kodea idatzi eta editatzeko.
 - **GitHub:** Fitxategiak gordetzeko eta lana antolatzeko.
 
-### 2.KARPETA ETA FITXATEGIEN EGITURA
+### 2. KARPETA ETA FITXATEGIEN EGITURA
 ![GitHUb planifikazioa](img/markatze/karpetak.png)
 
-### 3.HTML ETIKETAK
+### 3. HTML ETIKETAK
 
 - **`<!DOCTYPE html>`**: Dokumentua HTML5 formatuan dagoela adierazten du.
 - **`<html lang="en">`**: HTML dokumentua hasten du eta hizkuntza ingelesa dela adierazten du.
@@ -40,7 +40,7 @@ Lan honen helburua informatikako erronkan landutako edukiak webgune batean biltz
 - **`<br>`**: Lerro-jauzia txertatzen du.
 - **`<footer>`**: Orriaren beheko zatiko edukia biltzen du.
 
-### 4.CSS PROPIETATEAK
+### 4. CSS PROPIETATEAK
 
 - **`font-family`**: Testuaren letra mota zehazten du.
 - **`background-color`**: Atzeko planoaren kolorea ezartzen du.
